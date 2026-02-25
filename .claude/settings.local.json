@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /c/Users/soogil/Desktop/soogil_project/mqtt_test_manager && dart run build_runner build --delete-conflicting-outputs 2>&1)",
+      "Bash(cd /c/Users/soogil/Desktop/soogil_project/mqtt_test_manager && flutter pub get 2>&1)",
+      "Bash(cd /c/Users/soogil/Desktop/soogil_project/mqtt_test_manager && flutter pub run build_runner build --delete-conflicting-outputs 2>&1)",
+      "Bash(cd /c/Users/soogil/Desktop/soogil_project/mqtt_test_manager && flutter analyze 2>&1)"
+    ]
+  }
+}
